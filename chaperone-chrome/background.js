@@ -5,7 +5,6 @@ const sleep = (miliseconds) => {
 
 async function main(message, sender) {
     let minute = 600000;
-
     await sleep(minute);
     chrome.tabs.remove(sender.tab.id);
 
