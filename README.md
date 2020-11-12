@@ -17,4 +17,4 @@ For Firefox: https://
 
 # Demo Video
 
-![](https://imgur.com/ZaCJwCu.gif)
+![Demo](https://imgur.com/ZaCJwCu.gif)
