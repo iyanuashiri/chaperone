@@ -17,11 +17,5 @@ For Firefox: https://
 
 # Demo Video
 
-<<<<<<< HEAD
 
 ![](reduce_social_media.gif)
-
-
-=======
-![Demo](https://imgur.com/ZaCJwCu.gif)
->>>>>>> dd506169cac5f0a5a7970efd669fbd0198e44552
