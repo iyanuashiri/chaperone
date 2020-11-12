@@ -17,4 +17,7 @@ For Firefox: https://
 
 # Demo Video
 
-![](https://imgur.com/ZaCJwCu.gif)
+
+![](reduce_social_media.gif)
+
+
