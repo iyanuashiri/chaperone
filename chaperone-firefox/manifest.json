@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Chaperone: Reduce Social Media Usage",
+  "version": "0.0.1",
+
+  "description": "Chaperone is a Firefox extension tool to reduce social media usage while increasing productivity.",
+  "homepage_url": "https://github.com/iyanuashiri/chaperone",
+
+  "icons": {
+    "48": "icons/if_source_code_103710.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.instagram.com/*",
+        "*://*.youtube.com/*", "*://*.linkedin.com/*", "*://*.pinterest.com/*",
+        "*://*.tumblr.com/*", "*://*.web.whatsapp.com/*"],
+      "js": ["close.js"]
+    }
+  ],
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "32" : "icons/if_source_code_103710.svg"
+    },
+    "default_title": "Close URL",
+    "browser_style": true
+  }
+
+}
