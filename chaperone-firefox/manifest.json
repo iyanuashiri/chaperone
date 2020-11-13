@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Chaperone - Reduce Social Media Usage",
-  "version": "0.0.1",
+  "version": "1.0.0",
 
   "description": "Chaperone is a Firefox extension tool to reduce social media usage while increasing productivity.",
   "homepage_url": "https://github.com/iyanuashiri/chaperone",
