@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.instagram.com/*",
-        "*://*youtube.com/*", "*://*.linkedin.com/*", "*://*.pinterest.com/*",
+        "*://*.youtube.com/*", "*://*.linkedin.com/*", "*://*.pinterest.com/*",
         "*://*.tumblr.com/*", "*://*.web.whatsapp.com/*", "*://*.flickr.com/*",
         "*://*.quora.com/*", "*://*.reddit.com/*", "*://*.digg.com/*"],
       "js": ["close.js"]
