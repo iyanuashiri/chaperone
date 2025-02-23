@@ -1,40 +1,33 @@
 {
-  "manifest_version": 2,
-  "name": "Chaperone - Reduce Social Media Usage",
-  "version": "1.0.0",
-
-  "description": "Chaperone is a Chrome extension tool to reduce social media usage while increasing productivity.",
-  "homepage_url": "https://github.com/iyanuashiri/chaperone",
-
-  "icons": {
-    "48": "icons/if_source_code_103710.svg"
+  "manifest_version": 3,
+  "name": "Chaperone",
+  "version": "2.0.0",
+  "description": "A customizable tool to manage your time on specific websites with a math challenge.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
   },
-
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "32": "icons/if_source_code_103710.svg"
+    },
+    "default_title": "Chaperone"
+  },
   "content_scripts": [
     {
-      "matches": ["*://*.twitter.com/*", "*://*.facebook.com/*", "*://*.instagram.com/*",
-        "*://*.youtube.com/*", "*://*.linkedin.com/*", "*://*.pinterest.com/*",
-        "*://*.tumblr.com/*", "*://*.web.whatsapp.com/*", "*://*.flickr.com/*",
-        "*://*.quora.com/*", "*://*.reddit.com/*", "*://*.digg.com/*"],
-      "js": ["close.js"]
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/content_scripts.js"],
+      "run_at": "document_end"
     }
   ],
-
-  "permissions": [
-    "<all_urls>",
-    "tabs"
-  ],
-
-  "background": {
-    "scripts": ["background.js"]
-  },
-
-  "browser_action": {
-    "default_icon": {
-      "32" : "icons/if_source_code_103710.svg"
-    },
-    "default_title": "Close URL",
-    "browser_style": true
-  }
-
+  "options_page": "options/options.html"
 }
