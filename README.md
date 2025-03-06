@@ -43,9 +43,9 @@ This project is inspired by and builds upon research in the field of digital men
 
 **Relevant Research Papers:**
 
-*   **Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018).** No More FOMO: Limiting Social Media Decreases Loneliness and Depression. *Journal of Social and Clinical Psychology, 37*(10), 751-768.
-*   **Kross, E., Verduyn, P., Demiralp, E., Park, J., Lee, D. S., Lin, N., ... & Ybarra, O. (2013).** Facebook Use Predicts Declines in Subjective Well-Being in Young Adults. *PLoS ONE, 8*(8), e69841.
-*   **Verduyn, P., Lee, D. S., Park, J., Shablack, H., Orvell, A., Bayer, J., ... & Kross, E. (2017).** Passive Facebook usage undermines affective well-being: Experimental and longitudinal evidence. *Journal of Experimental Psychology: General, 146*(4), 554.
+*   **Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018).** [No More FOMO: Limiting Social Media Decreases Loneliness and Depression. *Journal of Social and Clinical Psychology, 37*(10), 751-768.](https://psycnet.apa.org/record/2019-02635-001)
+*   **Kross, E., Verduyn, P., Demiralp, E., Park, J., Lee, D. S., Lin, N., ... & Ybarra, O. (2013).** [Facebook Use Predicts Declines in Subjective Well-Being in Young Adults. *PLoS ONE, 8*(8), e69841.](https://pubmed.ncbi.nlm.nih.gov/23967061/)
+*   **Verduyn, P., Lee, D. S., Park, J., Shablack, H., Orvell, A., Bayer, J., ... & Kross, E. (2017).** [Passive Facebook usage undermines affective well-being: Experimental and longitudinal evidence. *Journal of Experimental Psychology: General, 146*(4), 554.](https://pubmed.ncbi.nlm.nih.gov/25706656/)
 
 **Limitations:** The abstract acknowledges the limitations of the N-of-1 study design, including potential individual-specific biases and the reliance on self-reported measures.  This extension serves as a practical implementation of the intervention described in the research, allowing for broader individual use and potential future data collection.
 
@@ -64,12 +64,12 @@ This project is inspired by and builds upon research in the field of digital men
 
 ### Chrome
 
-1.  **Download:** [Link to Chrome Web Store listing - *Replace with actual link when published*]  (Not yet published)
+1.  **Download:** [Link to Chrome Web Store listing ]  (Not yet published)
 2.  **Install:** Click "Add to Chrome".
 
 ### Firefox
 
-1.  **Download:** [Link to Firefox Add-ons listing - *Replace with actual link when published*] (Not yet published)
+1.  **Download:** [Link to Firefox Add-ons listing - ] (Not yet published)
 2.  **Install:** Click "Add to Firefox".
 
 ### Building from Source
