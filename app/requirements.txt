@@ -1,0 +1,11 @@
+alembic==1.15.1
+email-validator==2.2.0
+fastapi==0.115.11
+fastapi-login==1.10.3
+langchain==0.3.20
+langchain-google-genai==2.0.11
+passlib==1.7.4
+python-decouple==3.8
+python-multipart==0.0.20
+sqlmodel==0.0.24
+uvicorn==0.34.0
